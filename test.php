@@ -7,8 +7,7 @@
 
 <body>
 <?php
-class Person{ 
-
+class Person5{
 private $name; 
 private $sex; 
 private $age; 
@@ -27,9 +26,11 @@ function m($a){
      return new $a("张三","男", 20);
 }
 
-m('Person')->say();
+m('Person5')->say();
 
 ?>
 	
 </body>
 </html>
+
+
